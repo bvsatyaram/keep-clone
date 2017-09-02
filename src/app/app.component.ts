@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Keep Clone';
+  public cards: Array<any> = [
+    {text: 'Card 1'},
+    {text: 'Card 2'},
+    {text: 'Card 3'},
+    {text: 'Card 4'},
+  ];
 }
