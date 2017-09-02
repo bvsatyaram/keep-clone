@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
     </div>
   `,
   styles: [],
-  host: {'class': 'col-2'}
+  host: {'class': 'col-3'}
 })
 export class CardComponent implements OnInit {
   constructor() { }
