@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public cards: Array<any> = [
-    {text: 'Card 1'},
+    {text: 'Card 1', pinned: true},
     {text: 'Card 2'},
     {text: 'Card 3'},
     {text: 'Card 4'},
